@@ -1,16 +1,79 @@
-# assaignment_3
+# flutter_assaignment_3
+# Flutter Profile Screen UI
 
-A new Flutter project.
+A clean and modern profile screen UI built with Flutter. This project demonstrates how to create a user profile with personal information, contact details, action buttons, and hobby cards.
+
+## Features
+
+- Circular profile picture
+- User name and job title
+- Short profile description
+- Email and phone number
+- Follow and Message buttons
+- Travel and Photography cards with images
+- Rounded corners and subtle shadows
+- Reusable Flutter widgets
+- Scrollable layout for smaller screens
+
+## Built With
+
+- Flutter
+- Dart
+- Material Design widgets
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Make sure you have installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Dart SDK (included with Flutter)
+- Android Studio or Visual Studio Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd profile_ui
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the application:
+
+   ```bash
+   flutter run
+   ```
+
+## Project Structure
+
+```text
+lib/
+└── main.dart
+```
+
+The main file contains the profile screen and reusable widgets, including `ContactRow` and `InterestCard`.
+
+## Customization
+
+You can customize the profile information, images, colors, text styles, and button actions to suit your needs.
+
+**Note:** The sample profile and hobby images are loaded from online URLs, so an internet connection is required to display them.
+
+## Purpose
+
+This project was created to practice Flutter UI development, widget composition, layout design, and reusable components.
+
+
